@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
+
 import star from './asset/img/Star 1.png';
-import balls from './asset/img/balls.png';
-import cicler from './asset/img/ball-box-animation.png';
-import lightBall from './asset/img/light-ball-animation.png';           
+import balls from './asset/img/balls.png';          
 import aboutPicture from './asset/img/about-picture.png'
 
 
@@ -31,23 +30,13 @@ export const About = () =>{
                         </div>
 
                 </div>
+               
 
 
 
             <div className='relative mt-8'>
 
-                    <div >
-                          <img src={cicler} alt='' className='w-[200px] absolute inset-[45%] mt-[3rem] z-[-1] md:w-[300px] md:inset-x-[60%]  lg:inset-y-[30%] lg:w-[300px] '></img>  
-
-
-
-                    </div>
-
-                    <div >
-
-                        <img src={lightBall} alt='' className='w-[200px] absolute inset-[-1%] mt-[10rem] z-[-1]  md:inset-y-[0%] md:inset-x-[10%] lg:inset-y-[1%] lg:inset-x-[5%] lg:w-[300px]' ></img>
-                    </div>
-
+              
                                
                         <div className='w-[90%] m-auto bg-[#131313] p-3 rounded-lg md:w-[70%] md:h-[auto] md:p-5  lg:w-[60%] lg:h-[auto] lg:p-[1.5rem] mb-[4rem] '>
 
@@ -81,7 +70,7 @@ export const About = () =>{
 
             </div>
 
-            <div className={ visible ? ' hidden ' : 'block bg-white h-auto p-5 duration-[0.5s] ' }>
+            <div className={ visible ? ' hidden ' : 'block bg-white h-auto p-5  ' }>
 
                 <h2 className='font-jura font-bold text-center text-[#131313] text-[2rem] p-3 mb-[2rem]'>More About Me</h2>
 
@@ -109,18 +98,28 @@ export const About = () =>{
 
                                 </div>    
 
+                                <h2 className='text-[#000000] p-7 font-jura text-center text-[1.8rem] mb-[1rem]'>My Blog</h2>
 
                                 <div className=' border-2 border-red-700 w-[100%] lg:w-[100%] h-auto m-auto col-span-2'>
 
-                                    
-                                    <p className='p-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores nemo necessitatibus ratione incidunt expedita itaque laboriosam sed esse, perspiciatis deserunt ut, culpa quibusdam minus corrupti a. Facilis, voluptates consequuntur.
-                                    
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores nemo necessitatibus ratione incidunt expedita itaque laboriosam sed esse, perspiciatis deserunt ut, culpa quibusdam minus corrupti a. Facilis, voluptates consequuntur.
                                 
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores nemo necessitatibus ratione incidunt expedita itaque laboriosam sed esse, perspiciatis deserunt ut, culpa quibusdam minus corrupti a. Facilis, voluptates consequuntur.
-                                    </p>
-                
+                                    
+                                    <h3 className='text-center text-[1.5rem] p-5 font-jura font-bold text-[#8B08C9]'>" Goals as a software developer " </h3>
 
+                                       
+                                    <p className='p-2 text-[1.2rem] text-center font-jura font-bold' > 
+                                    I am a junior developer, I have been studying software engineering for around 2 years <span> and I am a self-taught person.</span>
+                                    </p>
+                                    <ul className='p-5'>
+                                        <li className=' m-4 font-jura  list-disc'> I am looking for a company where I can grow and that has a mutual benefit for both me and the company that hires me.</li>
+
+                                        <li className=' m-4 font-jura list-disc '> I am a person who is more interested in knowledge and experience than in the economic side since I can convert my knowledge into money.</li>
+
+                                        <li className=' m-4 font-jura list-disc'> I have new challenges and technologies to learn, some of them are: NodeJS and Typescript since I am really interested in the backend side.</li>
+                                        <li></li>
+
+
+                                    </ul>
 
                                 </div>
 
@@ -131,7 +130,7 @@ export const About = () =>{
                         </div>
 
                         
-                    </div>
+                    </div> 
                
 
                

@@ -3,43 +3,6 @@ import { TypeAnimation } from 'react-type-animation';
 import resume from './asset/img/resume.png'
 
 
- export const Nav = () =>{
-
-  return(
-    <>
-    
-      <nav className='flex justify-between place-items-center  place-content-center p-2 '>
-       
-        <h1> Cesar<span>Ogando</span> </h1>
-     
-      
-        <a href="#">Projects</a>
-        <a href="#">About Me</a>
-        <a href="#">BLog</a>
-        <a href="#">Contact</a>
-
-
-      </nav>
-    
-    
-    </>
-
-
-
-  )
-
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
  export const Hero = () =>{
