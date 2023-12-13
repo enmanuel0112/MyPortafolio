@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ad40822.css",
+    "main.js": "/static/js/main.3cbad821.js",
+    "static/media/cafe.png": "/static/media/cafe.461c775663a770d9c51d.png",
+    "static/media/resume.png": "/static/media/resume.402fd67f364090a4f436.png",
+    "static/media/background-header.png": "/static/media/background-header.b33a0a4b2dba1783f28a.png",
+    "static/media/burger.jpg": "/static/media/burger.01defc5a009edb55e6e7.jpg",
+    "static/media/loopstudios.jpg": "/static/media/loopstudios.1834124450be8329216e.jpg",
+    "static/media/about-picture.png": "/static/media/about-picture.299aeb627468b146bfed.png",
+    "static/media/Star 1.png": "/static/media/Star 1.521e127dea766b4550c5.png",
+    "static/media/backgroud-page.png": "/static/media/backgroud-page.eec9a63f7d4de14f5b83.png",
+    "static/media/age-calculator.jpg": "/static/media/age-calculator.f6528646fdc9071531f7.jpg",
+    "static/media/balls.png": "/static/media/balls.9cceebd59e8381169be7.png",
+    "index.html": "/index.html",
+    "main.4ad40822.css.map": "/static/css/main.4ad40822.css.map",
+    "main.3cbad821.js.map": "/static/js/main.3cbad821.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ad40822.css",
+    "static/js/main.3cbad821.js"
+  ]
+}
